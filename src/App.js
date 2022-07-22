@@ -3,7 +3,8 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import SaveMyName from './components/SaveMyName';
 import Pessoa from './components/Pessoa';
-
+import Frase from './components/Frase';
+import List from './components/List';
 
 function App() {
   const anyName = "Rodrigo";
@@ -15,13 +16,22 @@ function App() {
     photo: 'https://via.placeholder.com/225'
   }
 
+  /**
+   *  <HelloWorld />
+      <SaveMyName name={anyName} />
+   */
+
   return (
     <div className="App">
-    <HelloWorld />
-      <SaveMyName name="Bruno"/>
-      <SaveMyName name="Maria"/>
-      <SaveMyName name={anyName}/>
-      <Pessoa nome={example.name} idade={example.age} profissao={example.work} foto={example.photo}/>
+      <h1>Testando o CSS da aplicação.</h1>
+      <Pessoa
+        nome={example.name}
+        idade={example.age}
+        profissao={example.work}
+        foto={example.photo}
+      />
+      <Frase />
+      <List />
     </div>
   );
 }
