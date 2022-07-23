@@ -1,0 +1,32 @@
+.userForm {
+    padding:0;
+    margin:0;
+    height: 120px;
+}
+
+form {
+    padding-top: 40px;
+}
+
+.userInputs {
+    margin-top: 10px;
+}
+
+.userSubmit {
+    margin-top: 10px;
+}
+
+input[type='submit'] {
+    margin-top: 10px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+    transition: all 500ms ease-in-out;
+}
+
+input[type='submit']:hover {
+    background-color: #8994fc;
+    color: #fff;
+}

@@ -7,10 +7,10 @@ function Eventos({ numero = 0 }) {
     }
 
     return (
-        <>
+        <div>
             <p>Cluqie para disparar o evento:</p>
             <button onClick={meuEvento}>Ativar!</button>
-        </>
+        </div>
     );
 }
 
