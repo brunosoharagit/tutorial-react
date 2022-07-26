@@ -1,0 +1,14 @@
+.list {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #9dc0b8;
+    transition: all .5s ease;
+}
+.navLink:hover {
+    color: #dedede;
+}
